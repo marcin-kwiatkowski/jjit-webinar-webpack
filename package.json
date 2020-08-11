@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Webpack",
   "author": "Marcin Kwiatkowski",
-  "dependencies": {},
+  "private": true,
+  "dependencies": {
+    "react": "16.13.1"
+  },
   "devDependencies": {}
 }
