@@ -4,8 +4,14 @@
   "description": "Webpack",
   "author": "Marcin Kwiatkowski",
   "private": true,
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
   "dependencies": {
     "react": "16.13.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "webpack": "4.44.1",
+    "webpack-cli": "3.3.12"
+  }
 }
